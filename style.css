@@ -12,17 +12,17 @@ body{
     display: flex;
     flex-direction: row;
     flex-direction: column;
-    height: 550px;
+    height: 560px;
    
     margin: auto;
     margin-top: 10%;
-    width: 290px;
+    width: 310px;
     padding: 20px;
     border-radius: 8px;
     background-color:rgba(21,39,63,200);
 }
 .image-box>img{
-    width: 290px;
+    width: 310px;
     border-radius: 7px;
     cursor: pointer;
     height: 300px;
