@@ -12,20 +12,20 @@ body{
     display: flex;
     flex-direction: row;
     flex-direction: column;
-    height: 520px;
+    height: 550px;
    
     margin: auto;
     margin-top: 10%;
-    width: 280px;
+    width: 290px;
     padding: 20px;
     border-radius: 8px;
     background-color:rgba(21,39,63,200);
 }
 .image-box>img{
-    width: 280px;
+    width: 290px;
     border-radius: 7px;
     cursor: pointer;
-    height: 280px;
+    height: 300px;
     
 }
 .image-box>img:hover{
