@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgba(13,26,45,255);
+    display: flex;
+    align-items: center;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    height: 400px;
+   
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color:rgba(21,39,63,200);
+}
+.image-box>img{
+    width: 300px;
+    border-radius: 7px;
+    cursor: pointer;
+    height: 200px;
+    
+}
+.image-box>img:hover{
+    opacity: 0.3;
+}
+.days-left{
+    display: flex;
+    justify-content: space-between;
+}
+.imghed{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    gap: 10px;
+}
+.imghed>img{
+    width: 30px;
+    margin-right: 8px;
+}
+
+.content-box{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color:rgba(124,147,179,255)
+}
+.text-color{
+    color:white;
+}
+.text-color:hover{
+    color:rgba(29,239,236,255);
+    cursor: pointer;
+}
+#ETH{
+    color:rgba(29,239,236,255);
+}
